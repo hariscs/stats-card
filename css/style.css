@@ -1,0 +1,22 @@
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Inter', sans-serif;
+	/* font-family: 'Lexend Deca', sans-serif; */
+	font-size: 15px;
+	margin: 0;
+}
+
+.container {
+	max-width: 90%;
+	margin: 0 auto;
+}
