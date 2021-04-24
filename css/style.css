@@ -71,3 +71,45 @@ img {
 	margin-top: 0;
 	letter-spacing: 1px;
 }
+
+@media (min-width: 800px) {
+	.container {
+		flex-direction: row;
+		text-align: left;
+		padding-left: 1.5em;
+	}
+
+	.flex-content {
+		max-width: 600px;
+		flex: 1 0 50%;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+	.flex-img {
+		background-image: url(../images/image-header-desktop.jpg);
+		background-position: center;
+		background-size: cover;
+		order: 0;
+		flex: 1 0 50%;
+		border-radius: 0 10px 10px 0;
+		height: 70vh;
+	}
+	.stats {
+		margin-top: 100px;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	.one {
+		grid-column: 1;
+		grid-row: 1;
+	}
+	.two {
+		grid-column: 2;
+		grid-row: 1;
+	}
+	.three {
+		grid-column: 3;
+		grid-row: 1;
+	}
+}
