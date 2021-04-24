@@ -11,12 +11,63 @@
 
 body {
 	font-family: 'Inter', sans-serif;
-	/* font-family: 'Lexend Deca', sans-serif; */
 	font-size: 15px;
 	margin: 0;
+	background: hsl(233, 47%, 7%);
+}
+img {
+	max-width: 100%;
+	display: block;
 }
 
 .container {
 	max-width: 90%;
+	margin: 3em auto;
+	background: hsl(244, 38%, 16%);
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.flex-img {
+	order: -1;
+	background-color: hsl(277, 64%, 61%);
+	background-image: url(../images/image-header-mobile.jpg);
+	background-blend-mode: multiply;
+	background-size: cover;
+	height: 50vh;
+	overflow: hidden;
+	border-radius: 10px 10px 0 0;
+}
+
+.flex-content {
+	max-width: 300px;
 	margin: 0 auto;
+	padding: 1.5em 0;
+}
+.main-title {
+	line-height: 1;
+}
+.subtitle {
+	line-height: 1.6;
+	color: hsla(0, 0%, 100%, 0.75);
+}
+.main-title,
+.stats-title {
+	color: hsl(0, 0%, 100%);
+	font-family: 'Lexend Deca', sans-serif;
+}
+.main-title span {
+	color: hsl(277, 64%, 61%);
+}
+.stats-title {
+	margin-bottom: 0.2em;
+}
+.stats-sub {
+	color: hsla(0, 0%, 100%, 0.6);
+	text-transform: uppercase;
+	font-size: 0.6rem;
+	margin-top: 0;
+	letter-spacing: 1px;
 }
