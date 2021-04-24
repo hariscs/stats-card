@@ -29,6 +29,7 @@ img {
 	background-image: url(../images/image-header-mobile.jpg);
 	background-blend-mode: multiply;
 	background-size: cover;
+	background-position: center;
 	height: 50vh;
 	overflow: hidden;
 	border-radius: 10px 10px 0 0;
